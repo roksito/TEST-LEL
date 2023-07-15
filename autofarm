@@ -1,0 +1,12 @@
+local plr = game.Players.LocalPlayer
+local char = plr.Character
+char.HumanoidRootPart.CFrame = CFrame.new(workspace["locked parts [do not select]"].robby.Position)
+wait(2)
+
+                    fireproximityprompt(workspace["locked parts [do not select]"].robby.ProximityPrompt)
+                    wait(1)
+char.HumanoidRootPart.CFrame = CFrame.new(-221.950409, 71.4988785, -64.8597412, -0.00475868816, 8.50835988e-08, -0.999988675, -2.8521935e-08, 1, 8.5220293e-08, 0.999988675, 2.89271487e-08, -0.00475868816)
+wait(1)    
+local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+
+module:Teleport(game.PlaceId)
